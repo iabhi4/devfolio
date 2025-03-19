@@ -130,8 +130,23 @@ const baseUrl = "https://api.github.com/graphql";
 
 const headers = {
   "Content-Type": "application/json",
-  Authorization: "bearer " + openSource.githubConvertedToken,
+  Authorization: "bearer " + openSource.githubConvertedToken.trim(),
 };
+
+
+// fetch(baseUrl, {
+//   method: "POST",
+//   headers: headers,
+//   body: JSON.stringify(query_pr),
+// })
+//   .then((response) => response.text())
+//   .then((txt) => {
+//     console.log("Raw API Response for PRs:", txt);
+//     const data = JSON.parse(txt);
+//     console.log("Parsed Data:", data);
+//   })
+//   .catch((error) => console.log("Fetch error:", error));
+
 
 fetch(baseUrl, {
   method: "POST",
