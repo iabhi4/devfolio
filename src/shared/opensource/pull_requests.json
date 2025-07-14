@@ -1,6 +1,566 @@
 {
-  "closed": 3,
+  "closed": 6,
   "data": [
+    {
+      "id": "PR_kwDOCIsEO86cmZlo",
+      "title": "feat(ml): add SklearnHandler for simple classification and regression",
+      "url": "https://github.com/mindsdb/mindsdb/pull/11212",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2025-06-29T22:17:45Z",
+      "number": 11212,
+      "changedFiles": 3,
+      "additions": 120,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "mindsdb",
+        "url": "https://github.com/mindsdb/mindsdb",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/31035808?v=4",
+          "login": "mindsdb",
+          "url": "https://github.com/mindsdb"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAA0YD86cl_cP",
+      "title": "BUG: fillna with DataFrame input should preserve dtype when possible",
+      "url": "https://github.com/pandas-dev/pandas/pull/61742",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2025-06-29T19:26:42Z",
+      "number": 61742,
+      "changedFiles": 3,
+      "additions": 38,
+      "deletions": 2,
+      "baseRepository": {
+        "name": "pandas",
+        "url": "https://github.com/pandas-dev/pandas",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/21206976?v=4",
+          "login": "pandas-dev",
+          "url": "https://github.com/pandas-dev"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAA0YD86cW8xX",
+      "title": "BUG: Raise OutOfBoundsDatetime in DataFrame.replace when value exceeds datetime64[ns] bounds (GH#61671)",
+      "url": "https://github.com/pandas-dev/pandas/pull/61717",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2025-06-27T06:19:20Z",
+      "number": 61717,
+      "changedFiles": 3,
+      "additions": 32,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "pandas",
+        "url": "https://github.com/pandas-dev/pandas",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/21206976?v=4",
+          "login": "pandas-dev",
+          "url": "https://github.com/pandas-dev"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAxgDSc6akb_m",
+      "title": "GH-46683: [C++][Python] Add utf8_zero_fill compute function for sign-aware zero padding",
+      "url": "https://github.com/apache/arrow/pull/46815",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1721820?u=c1a3b40f938ba8415b6dd4e8248a1a6ec55e7a9e&v=4",
+        "url": "https://github.com/pitrou",
+        "login": "pitrou"
+      },
+      "createdAt": "2025-06-15T05:10:13Z",
+      "number": 46815,
+      "changedFiles": 10,
+      "additions": 205,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "arrow",
+        "url": "https://github.com/apache/arrow",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/47359?v=4",
+          "login": "apache",
+          "url": "https://github.com/apache"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAA0YD86ZivLL",
+      "title": "WEB: Replace os.path with pathlib.Path in pandas_web.py",
+      "url": "https://github.com/pandas-dev/pandas/pull/61604",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10058240?u=99d4d36096cc1b88725b0d6eaef6786581ebedfb&v=4",
+        "url": "https://github.com/datapythonista",
+        "login": "datapythonista"
+      },
+      "createdAt": "2025-06-07T22:27:57Z",
+      "number": 61604,
+      "changedFiles": 1,
+      "additions": 30,
+      "deletions": 40,
+      "baseRepository": {
+        "name": "pandas",
+        "url": "https://github.com/pandas-dev/pandas",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/21206976?v=4",
+          "login": "pandas-dev",
+          "url": "https://github.com/pandas-dev"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAA0YD86ZirtD",
+      "title": "REF: Replace os.path with pathlib.Path in pandas_web.py",
+      "url": "https://github.com/pandas-dev/pandas/pull/61603",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2025-06-07T22:00:23Z",
+      "number": 61603,
+      "changedFiles": 0,
+      "additions": 0,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "pandas",
+        "url": "https://github.com/pandas-dev/pandas",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/21206976?v=4",
+          "login": "pandas-dev",
+          "url": "https://github.com/pandas-dev"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAA0YD86ZSMla",
+      "title": "DOC: Validate versions.json before building docs #61573",
+      "url": "https://github.com/pandas-dev/pandas/pull/61578",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10058240?u=99d4d36096cc1b88725b0d6eaef6786581ebedfb&v=4",
+        "url": "https://github.com/datapythonista",
+        "login": "datapythonista"
+      },
+      "createdAt": "2025-06-05T21:48:19Z",
+      "number": 61578,
+      "changedFiles": 1,
+      "additions": 10,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "pandas",
+        "url": "https://github.com/pandas-dev/pandas",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/21206976?v=4",
+          "login": "pandas-dev",
+          "url": "https://github.com/pandas-dev"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAA0YD86ZR2ke",
+      "title": "TST: Remove match= in test_setitem_invalid to avoid PytestWarning",
+      "url": "https://github.com/pandas-dev/pandas/pull/61577",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10647082?u=e228d886e61f411c9c0f1d07db05f57e72790c87&v=4",
+        "url": "https://github.com/mroeschke",
+        "login": "mroeschke"
+      },
+      "createdAt": "2025-06-05T21:09:39Z",
+      "number": 61577,
+      "changedFiles": 1,
+      "additions": 3,
+      "deletions": 3,
+      "baseRepository": {
+        "name": "pandas",
+        "url": "https://github.com/pandas-dev/pandas",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/21206976?v=4",
+          "login": "pandas-dev",
+          "url": "https://github.com/pandas-dev"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAA0YD86YgpaA",
+      "title": "BUG: Fix Series.str.zfill for ArrowDtype string arrays #61485",
+      "url": "https://github.com/pandas-dev/pandas/pull/61533",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2025-06-01T22:09:25Z",
+      "number": 61533,
+      "changedFiles": 6,
+      "additions": 32,
+      "deletions": 3,
+      "baseRepository": {
+        "name": "pandas",
+        "url": "https://github.com/pandas-dev/pandas",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/21206976?v=4",
+          "login": "pandas-dev",
+          "url": "https://github.com/pandas-dev"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAA0YD86YXjd-",
+      "title": "BUG: Fix assert_frame_equal dtype handling when check_dtype=False (#61473)",
+      "url": "https://github.com/pandas-dev/pandas/pull/61525",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2025-05-31T06:09:26Z",
+      "number": 61525,
+      "changedFiles": 3,
+      "additions": 31,
+      "deletions": 7,
+      "baseRepository": {
+        "name": "pandas",
+        "url": "https://github.com/pandas-dev/pandas",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/21206976?v=4",
+          "login": "pandas-dev",
+          "url": "https://github.com/pandas-dev"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAA0YD86YWsdl",
+      "title": "BUG: Fix pivot_table margins to include NaN groups when dropna=False",
+      "url": "https://github.com/pandas-dev/pandas/pull/61524",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2025-05-31T02:52:43Z",
+      "number": 61524,
+      "changedFiles": 4,
+      "additions": 57,
+      "deletions": 17,
+      "baseRepository": {
+        "name": "pandas",
+        "url": "https://github.com/pandas-dev/pandas",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/21206976?v=4",
+          "login": "pandas-dev",
+          "url": "https://github.com/pandas-dev"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAA0YD86YM43C",
+      "title": "BUG: Fix sorting by column named None in DataFrame.sort_values (GH#61512)",
+      "url": "https://github.com/pandas-dev/pandas/pull/61517",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10647082?u=e228d886e61f411c9c0f1d07db05f57e72790c87&v=4",
+        "url": "https://github.com/mroeschke",
+        "login": "mroeschke"
+      },
+      "createdAt": "2025-05-30T00:57:45Z",
+      "number": 61517,
+      "changedFiles": 3,
+      "additions": 9,
+      "deletions": 5,
+      "baseRepository": {
+        "name": "pandas",
+        "url": "https://github.com/pandas-dev/pandas",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/21206976?v=4",
+          "login": "pandas-dev",
+          "url": "https://github.com/pandas-dev"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAxgDSc6XrtYa",
+      "title": "GH-46589: [C++] Fix utf8_is_digit to support full Unicode digit range",
+      "url": "https://github.com/apache/arrow/pull/46590",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1721820?u=c1a3b40f938ba8415b6dd4e8248a1a6ec55e7a9e&v=4",
+        "url": "https://github.com/pitrou",
+        "login": "pitrou"
+      },
+      "createdAt": "2025-05-26T20:52:55Z",
+      "number": 46590,
+      "changedFiles": 2,
+      "additions": 15,
+      "deletions": 7,
+      "baseRepository": {
+        "name": "arrow",
+        "url": "https://github.com/apache/arrow",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/47359?v=4",
+          "login": "apache",
+          "url": "https://github.com/apache"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAA0YD86Xfc-L",
+      "title": "BUG: Raise on coercion of ambiguous datetime strings to datetime64",
+      "url": "https://github.com/pandas-dev/pandas/pull/61489",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2025-05-24T09:28:07Z",
+      "number": 61489,
+      "changedFiles": 3,
+      "additions": 59,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "pandas",
+        "url": "https://github.com/pandas-dev/pandas",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/21206976?v=4",
+          "login": "pandas-dev",
+          "url": "https://github.com/pandas-dev"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAA0YD86WokQR",
+      "title": "BUG: Raise TypeError when joining with non-DataFrame using 'on=' (GH#61434)",
+      "url": "https://github.com/pandas-dev/pandas/pull/61454",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2025-05-18T23:00:01Z",
+      "number": 61454,
+      "changedFiles": 3,
+      "additions": 51,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "pandas",
+        "url": "https://github.com/pandas-dev/pandas",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/21206976?v=4",
+          "login": "pandas-dev",
+          "url": "https://github.com/pandas-dev"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAA0YD86WlV40",
+      "title": "BUG: Fix DataFrame constructor misclassification of array-like with 'name' attribute (#61443)",
+      "url": "https://github.com/pandas-dev/pandas/pull/61451",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10647082?u=e228d886e61f411c9c0f1d07db05f57e72790c87&v=4",
+        "url": "https://github.com/mroeschke",
+        "login": "mroeschke"
+      },
+      "createdAt": "2025-05-17T22:30:43Z",
+      "number": 61451,
+      "changedFiles": 3,
+      "additions": 20,
+      "deletions": 2,
+      "baseRepository": {
+        "name": "pandas",
+        "url": "https://github.com/pandas-dev/pandas",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/21206976?v=4",
+          "login": "pandas-dev",
+          "url": "https://github.com/pandas-dev"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDONxm2DM6UcQMU",
+      "title": "Removed the unmatched parentheses from the contributing.md Issue #276",
+      "url": "https://github.com/The-AI-Alliance/gofannon/pull/294",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5852441?u=3705251a0c3a1279777a6ec7498660582b2b459d&v=4",
+        "url": "https://github.com/rawkintrevo",
+        "login": "rawkintrevo"
+      },
+      "createdAt": "2025-04-30T04:27:56Z",
+      "number": 294,
+      "changedFiles": 1,
+      "additions": 2,
+      "deletions": 3,
+      "baseRepository": {
+        "name": "gofannon",
+        "url": "https://github.com/The-AI-Alliance/gofannon",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/150073668?v=4",
+          "login": "The-AI-Alliance",
+          "url": "https://github.com/The-AI-Alliance"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOOYne1c6SZA0r",
+      "title": "Added all necessary backend endpoints",
+      "url": "https://github.com/sanjyot242/SecondServing/pull/21",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61010675?u=bdc6f3ca1571cd6124db87b1309fadf62dc319cc&v=4",
+        "url": "https://github.com/iabhi4",
+        "login": "iabhi4"
+      },
+      "createdAt": "2025-04-13T11:06:40Z",
+      "number": 21,
+      "changedFiles": 5,
+      "additions": 308,
+      "deletions": 46,
+      "baseRepository": {
+        "name": "SecondServing",
+        "url": "https://github.com/sanjyot242/SecondServing",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/41758207?u=a725c9ff880f21156aeb27903643b10bcdff0742&v=4",
+          "login": "sanjyot242",
+          "url": "https://github.com/sanjyot242"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOOYne1c6SYxPr",
+      "title": "Endpoints",
+      "url": "https://github.com/sanjyot242/SecondServing/pull/18",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41758207?u=a725c9ff880f21156aeb27903643b10bcdff0742&v=4",
+        "url": "https://github.com/sanjyot242",
+        "login": "sanjyot242"
+      },
+      "createdAt": "2025-04-13T08:02:22Z",
+      "number": 18,
+      "changedFiles": 4,
+      "additions": 219,
+      "deletions": 40,
+      "baseRepository": {
+        "name": "SecondServing",
+        "url": "https://github.com/sanjyot242/SecondServing",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/41758207?u=a725c9ff880f21156aeb27903643b10bcdff0742&v=4",
+          "login": "sanjyot242",
+          "url": "https://github.com/sanjyot242"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOOYne1c6SYYbe",
+      "title": "Auth",
+      "url": "https://github.com/sanjyot242/SecondServing/pull/13",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41758207?u=a725c9ff880f21156aeb27903643b10bcdff0742&v=4",
+        "url": "https://github.com/sanjyot242",
+        "login": "sanjyot242"
+      },
+      "createdAt": "2025-04-13T04:46:26Z",
+      "number": 13,
+      "changedFiles": 18,
+      "additions": 599,
+      "deletions": 18,
+      "baseRepository": {
+        "name": "SecondServing",
+        "url": "https://github.com/sanjyot242/SecondServing",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/41758207?u=a725c9ff880f21156aeb27903643b10bcdff0742&v=4",
+          "login": "sanjyot242",
+          "url": "https://github.com/sanjyot242"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOOYne1c6SYX-o",
+      "title": "Fixed auth endpoints",
+      "url": "https://github.com/sanjyot242/SecondServing/pull/12",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2025-04-13T04:40:48Z",
+      "number": 12,
+      "changedFiles": 7,
+      "additions": 66,
+      "deletions": 19,
+      "baseRepository": {
+        "name": "SecondServing",
+        "url": "https://github.com/sanjyot242/SecondServing",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/41758207?u=a725c9ff880f21156aeb27903643b10bcdff0742&v=4",
+          "login": "sanjyot242",
+          "url": "https://github.com/sanjyot242"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOOYne1c6SYS1W",
+      "title": "Script added for db",
+      "url": "https://github.com/sanjyot242/SecondServing/pull/9",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41758207?u=a725c9ff880f21156aeb27903643b10bcdff0742&v=4",
+        "url": "https://github.com/sanjyot242",
+        "login": "sanjyot242"
+      },
+      "createdAt": "2025-04-13T04:03:42Z",
+      "number": 9,
+      "changedFiles": 2,
+      "additions": 61,
+      "deletions": 1,
+      "baseRepository": {
+        "name": "SecondServing",
+        "url": "https://github.com/sanjyot242/SecondServing",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/41758207?u=a725c9ff880f21156aeb27903643b10bcdff0742&v=4",
+          "login": "sanjyot242",
+          "url": "https://github.com/sanjyot242"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOOYne1c6SYP_W",
+      "title": "Auth setup",
+      "url": "https://github.com/sanjyot242/SecondServing/pull/8",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41758207?u=a725c9ff880f21156aeb27903643b10bcdff0742&v=4",
+        "url": "https://github.com/sanjyot242",
+        "login": "sanjyot242"
+      },
+      "createdAt": "2025-04-13T03:26:23Z",
+      "number": 8,
+      "changedFiles": 2,
+      "additions": 4,
+      "deletions": 2,
+      "baseRepository": {
+        "name": "SecondServing",
+        "url": "https://github.com/sanjyot242/SecondServing",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/41758207?u=a725c9ff880f21156aeb27903643b10bcdff0742&v=4",
+          "login": "sanjyot242",
+          "url": "https://github.com/sanjyot242"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOOYne1c6SYOj1",
+      "title": "Auth setup",
+      "url": "https://github.com/sanjyot242/SecondServing/pull/4",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41758207?u=a725c9ff880f21156aeb27903643b10bcdff0742&v=4",
+        "url": "https://github.com/sanjyot242",
+        "login": "sanjyot242"
+      },
+      "createdAt": "2025-04-13T03:03:01Z",
+      "number": 4,
+      "changedFiles": 5,
+      "additions": 238,
+      "deletions": 6,
+      "baseRepository": {
+        "name": "SecondServing",
+        "url": "https://github.com/sanjyot242/SecondServing",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/41758207?u=a725c9ff880f21156aeb27903643b10bcdff0742&v=4",
+          "login": "sanjyot242",
+          "url": "https://github.com/sanjyot242"
+        }
+      }
+    },
     {
       "id": "PR_kwDONCvr4M5_Osc9",
       "title": "Working Sui transactions from voice",
@@ -190,7 +750,7 @@
       }
     }
   ],
-  "merged": 5,
-  "open": 0,
-  "totalCount": 8
+  "merged": 19,
+  "open": 7,
+  "totalCount": 32
 }

@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Passionate about transforming ideas into comprehensive solutions that seamlessly integrate sustainability, scalability, and social impact.",
   resumeLink:
-    "https://drive.google.com/file/d/11Mp6i60CBaWi1Iwkev2P3-vnnYFobctu/view",
+    "https://drive.google.com/file/d/1PSuzEDco6FMzuYP5eWuavPh4nkQb0MxW/view",
   portfolio_repository: "https://github.com/iabhi4/devfolio",
   githubProfile: "https://github.com/iabhi4",
 };
@@ -371,6 +371,17 @@ const experience = {
           location: "Remote",
           description:
             "At AlertEnterprise, I developed scalable backend services with Spring Boot and integrated identity management platforms like Azure AD and OKTA to enhance security across 50+ airports. I also improved real-time anomaly detection with ML-based systems, built event-driven agents for automated policy enforcement, and resolved the highest number of technical tickets among 2022 new hires.",
+          color: "#000000",
+        },
+        {
+          title: "Graduate Teaching Associate",
+          company: "California State University, Fullerton",
+          company_url: "https://www.fullerton.edu/",
+          logo_path: "csuf_logo.png",
+          duration: "Jan 2025 - May 2025",
+          location: "Fullerton, CA",
+          description:
+            "I was responsible for teaching Data Structures & Algorithms to a section of 37 students for the Spring 2025 semester. Fostered first principles thinking and provided feedback on their assignments and exams.",
           color: "#000000",
         },
         // {

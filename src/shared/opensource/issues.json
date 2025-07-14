@@ -1,6 +1,58 @@
 {
-  "closed": 0,
+  "closed": 2,
   "data": [
+    {
+      "id": "I_kwDOAxgDSc65fXxR",
+      "closed": true,
+      "title": "[Python] Missing `utf8_zfill` in pyarrow.compute to support `str.zfill` behavior",
+      "createdAt": "2025-06-03T00:30:31Z",
+      "url": "https://github.com/apache/arrow/issues/46683",
+      "number": 46683,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/61010675?u=bdc6f3ca1571cd6124db87b1309fadf62dc319cc&v=4",
+            "name": "Abhinav",
+            "url": "https://github.com/iabhi4"
+          }
+        ]
+      },
+      "repository": {
+        "name": "arrow",
+        "url": "https://github.com/apache/arrow",
+        "owner": {
+          "login": "apache",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/47359?v=4",
+          "url": "https://github.com/apache"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOAxgDSc64S68S",
+      "closed": true,
+      "title": "[Python] `utf8_is_digit` in PyArrow doesn't fully match Python's `str.isdigit()` (e.g., fails for '³')",
+      "createdAt": "2025-05-26T19:54:01Z",
+      "url": "https://github.com/apache/arrow/issues/46589",
+      "number": 46589,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/61010675?u=bdc6f3ca1571cd6124db87b1309fadf62dc319cc&v=4",
+            "name": "Abhinav",
+            "url": "https://github.com/iabhi4"
+          }
+        ]
+      },
+      "repository": {
+        "name": "arrow",
+        "url": "https://github.com/apache/arrow",
+        "owner": {
+          "login": "apache",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/47359?v=4",
+          "url": "https://github.com/apache"
+        }
+      }
+    },
     {
       "id": "I_kwDOKzxkrc54RKc4",
       "closed": false,
@@ -23,5 +75,5 @@
     }
   ],
   "open": 1,
-  "totalCount": 1
+  "totalCount": 3
 }
